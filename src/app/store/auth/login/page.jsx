@@ -10,7 +10,7 @@ function page() {
 
   const ruta = useRouter();  
   const { starLogin, errorMessage, rol, isLoading } = useAuthStore();
-  const token = localStorage.getItem('token');
+  //const token = localStorage.getItem('token');
 
   useEffect(() => {
     if (!isLoading && rol) {
