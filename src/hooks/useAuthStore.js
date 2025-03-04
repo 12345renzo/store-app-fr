@@ -1,3 +1,4 @@
+"use client";
 import storeApi from "@/api/storeApi";
 import { onLogoutAdmin } from "@/redux/admin/adminSlice";
 import { onLogoutCalendar } from "@/redux/productos/productoSlice";
