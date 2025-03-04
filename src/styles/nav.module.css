@@ -1,0 +1,60 @@
+.caja{
+    background-color: black !important;
+    border-bottom: 5px solid aqua !important;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.8) !important;
+    height: 64px !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important; 
+    z-index: 1000 !important; 
+}
+.iconos{
+    color: aqua !important;
+}
+.iconos:hover{
+    color: white !important;
+}
+.boton:hover{
+    border: 3px solid aqua !important;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8) !important;
+    border-radius: 50px !important;
+}
+.lista{
+    color: white !important;
+    width: 200px !important; 
+}
+.lista:hover{
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8) !important;
+    color: aqua !important;
+}
+.option{
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+.option:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.princi{
+    color:aqua !important;
+    text-decoration: none !important;
+}
+.princi:hover{
+    color: white !important;
+}
+.items{
+    text-decoration: none !important;
+    color: white !important;
+    padding: 5px 18px !important;
+    border: 3px solid transparent !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.items:hover{
+    border: 3px solid aqua !important;
+    border-radius: 25px !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8) !important;
+}

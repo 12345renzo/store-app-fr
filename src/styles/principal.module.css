@@ -1,0 +1,53 @@
+.todo {
+  height: 100vh !important;
+  background-color: black !important;
+  overflow: auto !important;
+  scrollbar-width: thin !important;
+  scrollbar-color: aqua transparent !important;
+}
+
+.todo::-webkit-scrollbar {
+  width: 8px !important;
+  border-radius: 50px !important;
+}
+
+.todo::-webkit-scrollbar-thumb {
+  background: aqua !important;
+  border-radius: 50px !important;
+}
+
+.todo::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
+
+.todo::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 50px !important;
+}
+
+.targe{
+    width:100%;
+    cursor:pointer;
+    border:none;
+    text-decoration: none;
+    text-transform: none;
+    background-color:white !important;
+}
+
+.tit{
+    margin-top: 1px !important;
+    margin-bottom: 5px !important;
+    font-weight: 600 !important;
+}
+
+.subti{
+    margin-bottom: 5px !important;
+}
+
+.preci{
+    font-weight: 600 !important;
+}
+
+.car:hover{
+    color:white !important;
+}

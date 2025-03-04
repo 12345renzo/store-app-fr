@@ -1,0 +1,37 @@
+.but{
+    width: 55px !important;
+    height: 45px !important;
+    border:3px solid aqua !important;
+    margin : 5px 8px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+.but:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.especial{
+   border:3px solid aqua !important;
+   padding: 8px !important;
+   color: white !important;
+   font-weight: 600 !important;
+   text-transform: none !important;
+}
+.especial:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.resu{
+    font-weight: 600 !important;
+    color: aqua !important;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.9) !important;
+}
+.enlace{
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+.enlace:hover{
+    color: aqua !important;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.9) !important;
+}

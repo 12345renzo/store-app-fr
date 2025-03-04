@@ -1,0 +1,17 @@
+.links{
+    text-transform: none;
+    color: white;
+}
+.links:hover{
+    text-shadow: 0 0 25px rgba(0, 255, 255, 1.9);
+    color: aqua;
+}
+.inputLabel {
+  color: transparent !important;
+  font-weight: bold !important;
+  transition: 0.3s ease all;
+}
+.inputField {
+  font-weight: bold !important;
+  color: white !important;
+}

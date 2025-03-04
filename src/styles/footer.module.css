@@ -1,0 +1,11 @@
+.pri{
+    font-weight: 600 !important;
+    color: aqua !important;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) !important;
+}
+
+.sec{
+    text-decoration: none !important;
+    font-weight: 550 !important;
+    text-align: justify !important;
+}
