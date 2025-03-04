@@ -8,7 +8,6 @@ import CargarComponet from "./CargarComponet";
 export default function AuthRedirect({ children, allowedRoles }) {
   const router = useRouter();
   const pathname = usePathname();
-  const token = localStorage.getItem("token");
   const { rol, isLoading } = useAuthStore();
 
   useEffect(() => {
